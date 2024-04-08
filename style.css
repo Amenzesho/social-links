@@ -1,0 +1,76 @@
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: Inter;
+  src: url(https://fonts.google.com/specimen/Inter);
+}
+
+h4,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 350px;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(50%, 25%);
+}
+
+.image {
+  margin: 20px 0;
+  border-radius: 50%;
+  width: 40%;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: 80%;
+}
+
+.social-button {
+  appearance: none;
+  background-color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.social-button:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
